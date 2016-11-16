@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- 去掉ActionBar，欲练此功，必先自宫 -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- toolbar（actionbar）背景颜色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <item name="colorAccent">#CF2D28</item>
+    </style>
+
+    <style name="AppTheme2" parent="AppBaseTheme">
+        <item name="contentInsetStart">0dp</item>
+    </style>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- 参考Seekbar -->
+    <declare-styleable name="windows2">
+
+        <!-- 背景颜色 -->
+        <attr name="background2" format="color" />
+        <!-- 进度颜色 -->
+        <attr name="progressDrawable2" format="color" />
+        <!-- 宽度 -->
+        <attr name="layout_width2" format="dimension" />
+        <!-- 字体颜色 -->
+        <attr name="textColor2" format="color" />
+        <!-- 字体大小 -->
+        <attr name="textSize2" format="dimension" />
+        <!-- 最大进度 -->
+        <attr name="max2" format="integer" />
+        <!-- 进度 -->
+        <attr name="progress2" format="integer" />
+        <!-- 进度点 -->
+        <attr name="thumb2" format="reference" />
+        <!-- 进度点宽高 -->
+        <attr name="thumbSize2" format="integer" />
+    </declare-styleable>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme_editext" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorAccent">@color/top</item>
+
+    </style>
+</resources>

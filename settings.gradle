@@ -1,0 +1,2 @@
+include ':app', ':ptr-lib', ':ucrop', ':MPChartLib', ':mylibrary', ':multi-image-selector', ':zxing', ':qrcodecore'
+include ':library'

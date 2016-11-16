@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\workspace\\crop\\e\\Zsdh\\zxing\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\qrcode_default_grid_scan_line.png",
+        "source": "E:\\workspace\\crop\\e\\Zsdh\\zxing\\build\\intermediates\\exploded-aar\\Zsdh\\qrcodecore\\unspecified\\res\\mipmap-xxhdpi-v4\\qrcode_default_grid_scan_line.png"
+    },
+    {
+        "merged": "E:\\workspace\\Zsdh\\zxing\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\qrcode_default_grid_scan_line.png",
+        "source": "E:\\workspace\\Zsdh\\zxing\\build\\intermediates\\exploded-aar\\Zsdh\\qrcodecore\\unspecified\\res\\mipmap-xxhdpi-v4\\qrcode_default_grid_scan_line.png"
+    },
+    {
+        "merged": "E:\\workspace\\crop\\e\\Zsdh\\zxing\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png",
+        "source": "E:\\workspace\\crop\\e\\Zsdh\\zxing\\build\\intermediates\\exploded-aar\\Zsdh\\qrcodecore\\unspecified\\res\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png"
+    },
+    {
+        "merged": "E:\\workspace\\Zsdh\\zxing\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png",
+        "source": "E:\\workspace\\Zsdh\\zxing\\build\\intermediates\\exploded-aar\\Zsdh\\qrcodecore\\unspecified\\res\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png"
+    }
+]
